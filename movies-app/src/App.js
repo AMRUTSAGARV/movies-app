@@ -1,13 +1,15 @@
 // import logo from './logo.svg';
 import './App.css';
 import Header from "./components/Header/Header";
+import SimpleBottomNavigation from './components/MainNav';
 
 function App() {
   return (
-    <div className="App">
-   
-   <Header />
-    </div>
+    <>
+      <Header />
+    <div className="app">Hello </div>
+    <SimpleBottomNavigation />
+    </>
   );
 }
 
